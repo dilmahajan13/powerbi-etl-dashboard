@@ -1,26 +1,22 @@
-# 📊 Power BI ETL Dashboard
+# Power BI ETL Dashboard
 
-## 🔍 Overview
+## Overview
 
-This project demonstrates a business intelligence dashboard built using Power BI to analyze transactional data.
+This project is a Power BI dashboard built to analyze transactional data and understand overall business performance.
 
-## 📈 Key Insights
+## What I Built
 
-* Revenue trends over time
-* Country-wise performance analysis
-* Identification of risk users with negative profit
+* A revenue trend analysis over time
+* Country-wise performance comparison
+* Identification of users generating negative profit
 
-## ⚠️ Risk Users
-
-Users generating losses are identified to help businesses take corrective actions.
-
-## 🛠 Tools Used
+## Tools Used
 
 * Power BI
 * SQL
-* ETL Concepts
+* Basic ETL concepts
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 ### Full Dashboard
 
@@ -30,39 +26,29 @@ Users generating losses are identified to help businesses take corrective action
 
 ![Risk Users](risk_users.png)
 
-## 🚀 Outcome
+## Problem Statement
 
-This dashboard helps stakeholders make data-driven decisions by visualizing trends, performance, and risk areas.
+The goal was to analyze revenue trends, identify top-performing countries, and find users who are causing losses.
 
+## Approach
 
-## 🧩 Business Problem
-
-A company wants to analyze revenue performance, identify top-performing countries, and detect users generating losses.
-
-## 🛠 Solution Approach
-
-* Loaded transactional data into Power BI
-* Created data model using fact and dimension tables
+* Loaded and modeled transactional data in Power BI
+* Created relationships between fact and dimension tables
 * Built measures for revenue and profit analysis
-* Applied filtering to identify negative profit users
+* Applied filters to identify users with negative profit
 
-## 📊 Key Insights
+## Data Model
 
-* Revenue trends help track business growth over time
-* Country performance highlights top markets
-* Risk users (negative profit) indicate loss-making behavior
+* fact_transactions → contains amount and profit/loss
+* dim_users → contains user details like name and country
+* dim_date → used for time-based analysis
 
-## ⚙️ Data Model
+## Key Findings
 
-* fact_transactions (amount, profit_loss)
-* dim_users (user details, country)
-* dim_date (date analysis)
+* Revenue shows variation over time, which can help track growth
+* Some countries contribute more significantly to revenue
+* A set of users consistently generate negative profit and can be flagged as risk users
 
-## 📌 Use Case
+## Outcome
 
-This dashboard helps stakeholders:
-
-* Monitor revenue performance
-* Identify high-performing regions
-* Detect and reduce financial losses
-
+This dashboard gives a clear view of performance and helps in identifying areas where the business might be losing money.
