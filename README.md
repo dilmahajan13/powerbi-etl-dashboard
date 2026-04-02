@@ -20,11 +20,8 @@ This project is a Power BI dashboard built to analyze transactional data and und
 
 ### Full Dashboard
 
-![Dashboard](dashboard.png)
-
 ### Risk Users
 
-![Risk Users](risk_users.png)
 
 ## Problem Statement
 
